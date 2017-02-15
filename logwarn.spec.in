@@ -30,9 +30,9 @@ BuildRequires:  gcc
 BuildRequires:  nagios-plugins
 
 %description
-%{name} searches for interesting messages in log files, where ``interest-
-ing'' is defined by an user-supplied list of positive and negative (pre-
-ceeded with a ``!'') extended regular expressions provided on the command
+%{name} searches for interesting messages in log files, where interest-
+ing is defined by an user-supplied list of positive and negative (pre-
+ceeded with !) extended regular expressions provided on the command
 line.
 
 Each log message is compared against each pattern in the order given.  If
